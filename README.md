@@ -9,7 +9,7 @@ Department of Electrical Engineering, Shahid Beheshti University, Tehran, Iran. 
 The computation of battery impedance spectra by using FFT, and system identification (sysid) method in cEIS device. 
 Two equivalent circuit models (ECMs) are estimated to fit the impedance spectra obtained from FFT. The first ECM model is a first-order Randles circuit as shown below:
 
-                             R1
+                               R1
                       |-----/\/\/\/------|
             Rinf      |                  |
     -------/\/\/\-----|                  |----
@@ -24,7 +24,7 @@ where Rinf=m1, R1=m0/n0-m1, and C1=1/(n0*R1).
 
 The second identified ECM model is a second-order Randles circuit as shown below:
 
-                             R1                      R2
+                               R1                      R2
                        |-----/\/\/\/------|    |-----/\/\/\/-----|
              Rinf      |                  |    |                 |
      -------/\/\/\-----|                  |----|                 |--------
