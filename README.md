@@ -41,6 +41,6 @@ where, tau1=R1*C1; tau2=R2*C2; a1=1/tau1; a2=1/tau2; b1=1/C1; b2=1/C2; m2=Rinf; 
 n1=a1+a2; n0=a1*a2
 
 Feel free to contact me for any further information you have
-Good Luck
+
 Mahdi Alavi
 
