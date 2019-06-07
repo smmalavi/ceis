@@ -5,7 +5,7 @@ By E. Sadeghi, M. H. Zand, M. Hamzeh, and S.M.M. Alavi
  
 Department of Electrical Engineering, Shahid Beheshti University, Tehran, Iran.
       
-This repository provides you with the Matlab codes for test #1 and test #2 of the above manuscript. The current and voltage data is loaded in the beginning of each test. I would refer you to the manuscript for the information about tests, and data. The Matlab codes compute the impedance spectra by using FFT, and by using system identification methods. 
+This repository provides you with the Matlab codes for test #1 and test #2 of the above manuscript. The current and voltage data is loaded in the beginning of each test. I would refer you to the manuscript for the information about tests, and data. The Matlab codes compute the impedance spectra by using FFT, and system identification methods. 
 
 In test #1, a first-order Randles equivalent circuit model (ECM) is estimated. In test #2, the first- and second-order Randles ECMs are estimated and their accuracies are compared. 
 
