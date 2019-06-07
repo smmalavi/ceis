@@ -5,9 +5,11 @@ By E. Sadeghi, M. H. Zand, M. Hamzeh, and S.M.M. Alavi
  
 Department of Electrical Engineering, Shahid Beheshti University, Tehran, Iran. m_alavi@sbu.ac.ir, http://arg.sbu.ac.ir
       
+This repository provides you with the Matlab codes for test #1 and test #2 of the above manuscript. The current and voltage data are loaded in the beginning of each test. I would refer you to the paper for the information about tests, and data. The Matlab codes compute the impedance spectra by using FFT, and by using system identification methods. 
 
-The computation of battery impedance spectra by using FFT, and system identification (sysid) method in cEIS device. 
-Two equivalent circuit models (ECMs) are estimated to fit the impedance spectra obtained from FFT. The first ECM model is a first-order Randles circuit as shown below:
+In test #1, a first-order Randles equivalent circuit model (ECM) is estimated. In test #2, the first- and second-order Randles ECMs are estimated and their accuracies are compared. 
+
+The first-order Randles ECM is shown below:
 
                                R1
                       |-----/\/\/\/------|
@@ -22,7 +24,7 @@ Two equivalent circuit models (ECMs) are estimated to fit the impedance spectra 
 
 where Rinf=m1, R1=m0/n0-m1, and C1=1/(n0*R1). 
 
-The second identified ECM model is a second-order Randles circuit as shown below:
+The second-order Randles ECM is shown below:
 
                                R1                      R2
                        |-----/\/\/\/------|    |-----/\/\/\/-----|
