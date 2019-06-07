@@ -1,9 +1,7 @@
+# A controllable Electrochemical Impedance Spectroscopy (cEIS) Device
 
-A controllable Electrochemical Impedance Spectroscopy (cEIS) Device
-
-By E. Sadeghi, M. H. Zand, M. Hamzeh, and S.M.M. Alavi
- 
-Department of Electrical Engineering, Shahid Beheshti University, Tehran, Iran.
+## By E. Sadeghi, M. H. Zand, M. Hamzeh, and S.M.M. Alavi
+## Department of Electrical Engineering, Shahid Beheshti University, Tehran, Iran.
       
 This repository provides you with the Matlab codes for test #1 and test #2 of the above manuscript. The current and voltage data is loaded in the beginning of each test. I would refer you to the manuscript for the information about tests, and data. The Matlab codes compute the impedance spectra by using FFT, and system identification methods. 
 
